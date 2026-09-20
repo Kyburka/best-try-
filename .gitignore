@@ -23,6 +23,7 @@
 hs_err_pid*
 replay_pid*
 .obsidian/
-/best-try-.iml
+*.iml
 /.idea/
 out/
+**/out/

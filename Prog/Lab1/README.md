@@ -12,7 +12,7 @@
 # Код
 
 ```java
-public class Main {  
+public class Lab1 {  
     static final int E_LENGTH = 7;  
     static final int X_LENGTH = 19;  
     static final int MIN_RANDOM = -13;  
@@ -83,14 +83,14 @@ public class Main {
 javac --release 17 main.java
 ```
 
-Далее, переводим $Main.class$ в JAR:
+Далее, переводим $Lab1.class$ в JAR:
 ```bash
-jar cfe Main.jar Main *.class
+jar cfe Lab1.jar Lab1 *.class
 ```
 
 Отправляем на Гелиос через $scp$:
 ```bash
-scp -P 2222 Main.jar s501591@se.ifmo.ru:~/
+scp -P 2222 Lab1.jar s501591@se.ifmo.ru:~/
 #Вводим пароль
 ```
 

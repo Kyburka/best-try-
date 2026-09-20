@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Lab1 {
     static final int E_LENGTH = 7;
     static final int X_LENGTH = 19;
     static final int MIN_RANDOM = -13;
